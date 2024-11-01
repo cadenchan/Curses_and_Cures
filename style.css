@@ -2,3 +2,7 @@
     width: 50px;
 }
 .titler{font-size:50px; font-family:joan;}
+footer {
+    height: 100px;
+}
+.mission-statement{background-color: #C87E7E; text-align: center; font-size: 35px; padding-left: 300px;padding-right: 300px; }
