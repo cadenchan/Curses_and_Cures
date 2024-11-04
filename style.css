@@ -1,8 +1,69 @@
 #logo {
     width: 50px;
 }
-.titler{font-size:50px; font-family:joan;}
+.brand {
+    width: 80px;
+    object-position: center;
+}
+.titler{
+    font-size:50px; font-family:joan;
+}
 footer {
     height: 100px;
 }
-.mission-statement{background-color: #C87E7E; text-align: center; font-size: 35px; padding-left: 300px;padding-right: 300px; }
+.mission-statement{
+    background-color: #C87E7E;
+     text-align: center;
+      font-size: 35px;
+}
+.card-images{
+    width: 200px; height: 150px; margin: auto;
+}
+.navbar {
+    background-color: #71473E;
+    font-family: Jacques Francois;
+}
+.footer {
+    background-color: #71473E;
+}
+.card{
+    width: 15rem;
+}
+
+/* Global */
+.navbar-brand {
+    color: #FF6CBD;
+    font-size: 38px;
+}
+.navbar-brand:hover {
+    color: white !important;
+}
+.nav-link {
+    color: #FDB7C6;
+    font-size: 28px;
+}
+.nav-link:hover {
+    color: white !important;
+}
+.active {
+    color: #FF6CBD !important;
+}
+body {
+    background-color: #C4B7B7;
+}
+
+/* homepage*/
+.mx-md-3{
+    $spacer()
+}
+
+/* Check out page */
+.btn-outline-secondary {
+    background-color:#FDB7C6 !important;
+}
+.btn-outline-secondary p {
+    color:#71473E;
+}
+.btn-outline-secondary:hover, .btn-outline-secondary:focus, .btn-outline-secondary:active, .btn-outline-secondary.active, .open>.dropdown-toggle.btn-outline-secondary {
+    background-color: #d45990 !important;
+}
