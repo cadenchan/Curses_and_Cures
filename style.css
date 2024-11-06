@@ -5,20 +5,14 @@
     width: 80px;
     object-position: center;
 }
-.titler{
+.titler {
     font-size:50px; font-family:joan;
 }
 footer {
     height: 100px;
 }
-.mission-statement{
-    background-color: #C87E7E;
-     text-align: center;
-      font-size: 35px;
-}
-.card-images{
-    width: 200px; height: 150px; margin: auto;
-}
+
+
 .navbar {
     background-color: #71473E;
     font-family: Jacques Francois;
@@ -26,9 +20,7 @@ footer {
 .footer {
     background-color: #71473E;
 }
-.card{
-    width: 15rem;
-}
+
 
 /* Global */
 .navbar-brand {
@@ -51,10 +43,44 @@ footer {
 body {
     background-color: #C4B7B7;
 }
-
+.footer_p {
+    font-family: Jaldi;
+    font-size: 20px;
+    color: #FDB7C6;
+}
+.foorer_img {
+    height: 25px;
+    width: 25px;
+    color: #FDB7C6;
+}
+.link {
+    color: #962B2B;
+}
+.link:hover {
+    color: white;
+}
 /* homepage*/
-.mx-md-3{
+.mx-md-3 {
     $spacer()
+}
+.card {
+    margin:auto;margin-top: 10px;margin-bottom: 10px;
+        width: 20rem; background-color:#962B2B; color: white;
+}
+.mission-statement {
+    background-color: #C87E7E;
+     text-align: center;
+      font-size: 35px;
+      outline: black;
+      outline-width: 10px;
+      outline-style: solid;
+      margin-top: 10px;
+}
+.card-images {
+    width: 200px; height: 150px; margin: auto;
+}
+.card-button {
+background-color: #C87E7E;color:;
 }
 
 /* Check out page */
@@ -64,6 +90,12 @@ body {
 .btn-outline-secondary p {
     color:#71473E;
 }
+
 .btn-outline-secondary:hover, .btn-outline-secondary:focus, .btn-outline-secondary:active, .btn-outline-secondary.active, .open>.dropdown-toggle.btn-outline-secondary {
     background-color: #d45990 !important;
 }
+
+.btn-outline-secondary:hover p {
+    color:white !important;
+}
+
