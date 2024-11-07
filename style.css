@@ -59,13 +59,23 @@ body {
 .link:hover {
     color: white;
 }
-/* homepage*/
-.mx-md-3 {
-    $spacer()
+.page{
+    margin-top:50px !important;
 }
+p {
+    font-family:joan;
+}
+.card-description{
+    margin-left:10px;
+    margin-right: 10px;
+    background-color:#C87E7E ;
+    color:#3b3b3b;
+}
+/* homepage*/
+
 .card {
     margin:auto;margin-top: 10px;margin-bottom: 10px;
-        width: 20rem; background-color:#962B2B; color: white;
+        width: 20rem; background-color:#962B2B; color:white;
 }
 .mission-statement {
     background-color: #C87E7E;
@@ -74,7 +84,8 @@ body {
       outline: black;
       outline-width: 10px;
       outline-style: solid;
-      margin-top: 10px;
+      margin-top: 20px;
+      margin-bottom: 20px;
 }
 .card-images {
     width: 200px; height: 150px; margin: auto;
@@ -82,7 +93,10 @@ body {
 .card-button {
 background-color: #C87E7E;color:;
 }
-
+/* Curses */
+.card-images {
+    margin-top: 20px;
+}
 /* Check out page */
 .btn-outline-secondary {
     background-color:#FDB7C6 !important;
@@ -98,4 +112,10 @@ background-color: #C87E7E;color:;
 .btn-outline-secondary:hover p {
     color:white !important;
 }
-
+.border-end {
+    border-color: gray !important;
+}
+/* Professional Services */
+.professional_service_block_red {
+    background-color: #962B2B;
+}
