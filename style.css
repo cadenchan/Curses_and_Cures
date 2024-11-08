@@ -19,6 +19,7 @@ footer {
 }
 .footer {
     background-color: #71473E;
+    padding: 5px;
 }
 
 
@@ -48,11 +49,7 @@ body {
     font-size: 20px;
     color: #FDB7C6;
 }
-.foorer_img {
-    height: 25px;
-    width: 25px;
-    color: #FDB7C6;
-}
+
 .link {
     color: #962B2B;
 }
@@ -71,8 +68,17 @@ p {
     background-color:#C87E7E ;
     color:#3b3b3b;
 }
-/* homepage*/
+h3 {
+    font-family: joan;
+}
+h4 {
+    font-family: joan;
+}
+.footer_img {
+    color: #FDB7C6;
+}
 
+/* homepage*/
 .card {
     margin:auto;margin-top: 10px;margin-bottom: 10px;
         width: 20rem; background-color:#962B2B; color:white;
@@ -93,15 +99,17 @@ p {
 .card-button {
 background-color: #C87E7E;color:;
 }
+
 /* Curses */
 .card-images {
     margin-top: 20px;
 }
+
 /* Check out page */
 .btn-outline-secondary {
     background-color:#FDB7C6 !important;
 }
-.btn-outline-secondary p {
+.btn-outline-secondary h6 {
     color:#71473E;
 }
 
@@ -109,12 +117,13 @@ background-color: #C87E7E;color:;
     background-color: #d45990 !important;
 }
 
-.btn-outline-secondary:hover p {
+.btn-outline-secondary:hover h6 {
     color:white !important;
 }
 .border-end {
     border-color: gray !important;
 }
+
 /* Professional Services */
 .professional_service_block_red {
     background-color: #962B2B;
