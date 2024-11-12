@@ -12,7 +12,6 @@ footer {
     height: 100px;
 }
 
-
 .navbar {
     background-color: #71473E;
     font-family: Jacques Francois;
@@ -113,7 +112,7 @@ background-color: #C87E7E;color:;
     color:#71473E;
 }
 
-.btn-outline-secondary:hover, .btn-outline-secondary:focus, .btn-outline-secondary:active, .btn-outline-secondary.active, .open>.dropdown-toggle.btn-outline-secondary {
+.btn-outline-secondary:hover, .btn-outline-secondary:active, .btn-outline-secondary.active, .open>.dropdown-toggle.btn-outline-secondary {
     background-color: #d45990 !important;
 }
 
@@ -123,8 +122,14 @@ background-color: #C87E7E;color:;
 .border-end {
     border-color: gray !important;
 }
+.img-thumbnail.check-out {
+    height: 100px;
+    width: 150px;
+}
+
 
 /* Professional Services */
 .professional_service_block_red {
     background-color: #962B2B;
+    margin: 5px;
 }
