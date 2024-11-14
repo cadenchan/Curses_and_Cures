@@ -76,6 +76,9 @@ h4 {
 .footer_img {
     color: #FDB7C6;
 }
+.content-font {
+    font-family: joan;
+}
 
 /* homepage*/
 .card {
