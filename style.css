@@ -79,11 +79,26 @@ h4 {
 .content-font {
     font-family: joan;
 }
+.navbar-toggler {
+    background-color: #FDB7C6;
+}
+@media only screen and (max-width: 900px){
+    footer {
+        height: 156px;
+    }
+}
+.thanks{
+    text-align: center;
+}
+.hooray{
+    background-image:;
+}
+
 
 /* homepage*/
 .card {
     margin:auto;margin-top: 10px;margin-bottom: 10px;
-        width: 20rem; background-color:#962B2B; color:white;
+        width: 20rem; background-color: #962b2b; color:white;
 }
 .mission-statement {
     background-color: #C87E7E;
@@ -100,6 +115,11 @@ h4 {
 }
 .card-button {
 background-color: #C87E7E;color:;
+}
+@media only screen and (max-width: 1244px) and (min-width: 992px) {
+    .card.home {
+        width: 225px;
+    }
 }
 
 /* Curses */
@@ -133,7 +153,6 @@ background-color: #C87E7E;color:;
 /* Professional Services */
 .professional_service_block_red {
     background-color: #962B2B;
-    margin: 5px;
 }
 
 /* Payment Page */
@@ -146,3 +165,7 @@ background-color: #C87E7E;color:;
 .btn-primary:hover span {
     color:#3d2722
 }
+
+
+
+/* About Us Page */
