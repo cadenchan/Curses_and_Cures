@@ -88,11 +88,13 @@ h4 {
     }
 }
 .thanks{
-    text-align: center;
+    text-align: center;padding-top: 200px;font-size: 75px;
 }
 .hooray{
-    background-image:;
+    height:100vh; background-image: url(/images/hooray!.png); background-repeat: repeat-x; background-color:#F5F5F5
 }
+
+
 
 
 /* homepage*/
