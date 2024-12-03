@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    
 </head>
 
 <body>
@@ -43,8 +44,11 @@
     <main>
         <div class="row">
             <div class="col">
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cart">Cart (<span class="total-count"></span>)</button>
-                <button class="clear-cart btn btn-danger">Clear Cart</button>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cartModal">
+                    View Cart
+                </button>
+                
+                
             </div>
         </div>
         <div class=" container-fluid text-center">
@@ -59,7 +63,7 @@
                                 conceal itself by using natural phenomena to trip the subject. The trips will vary based
                                 on environment
                             </p>
-                            <a href="#" data-name="Tripping Curse" data-price="0.5" class="add-to-cart btn ">Add to Cart</a>
+                            <a href="#" class="btn card-button add-to-cart" data-item='{"title": "Tripping Curse", "price": 70}'>Add to Cart</a>
                         </div>
                     </div>
                 </div>
@@ -73,7 +77,7 @@
                                 stubs will vary based on multiple variables like how fast the person is walking or the
                                 environment around the person.
                             </p>
-                            <a href="check-out.html" class="btn card-button">Add to Cart</a>
+                            <a href="#" class="btn card-button add-to-cart" data-item='{"title": "Toe Stubbing Curse", "price": 70}'>Add to Cart</a>
                         </div>
                     </div>
                 </div>
@@ -86,7 +90,7 @@
                                 The voice crack curse will cause a person to have a voice crack at the start of each new
                                 conversation. These cracks will vary in intensity based on the nervousness of the person
                             </p>
-                            <a href="check-out.html" class="btn card-button">Add to Cart</a>
+                            <a href="#" class="btn card-button add-to-cart" data-item='{"title": "Voice Crack Curse", "price": 70}'>Add to Cart</a>
                         </div>
                     </div>
                 </div>
@@ -102,7 +106,7 @@
                             <p class="card-description rounded">
                                 The consumer of this curse will have perpetually bad wifi
                             </p>
-                            <a href="check-out.html" class="btn card-button">Add to Cart</a>
+                            <a href="#" class="btn card-button add-to-cart" data-item='{"title": "Tripping Curse", "price": 70}'>Add to Cart</a>
                         </div>
                     </div>
                 </div>
@@ -116,7 +120,7 @@
                                 scratch. The intensity of the itch will fade with scratching to prevent excessive skin
                                 damage
                             </p>
-                            <a href="check-out.html" class="btn card-button">Add to Cart</a>
+                            <a href="#" class="btn card-button add-to-cart" data-item='{"title": "Tripping Curse", "price": 70}'>Add to Cart</a>
                         </div>
                     </div>
                 </div>
@@ -129,7 +133,7 @@
                                 The consumer of this curse will have a nerve pain at a random spot on their body once
                                 every hour. The pain will last for 1 minute
                             </p>
-                            <a href="check-out.html" class="btn card-button">Add to Cart</a>
+                            <a href="#" class="btn card-button add-to-cart" data-item='{"title": "Tripping Curse", "price": 70}'>Add to Cart</a>
                         </div>
                     </div>
                 </div>
@@ -146,7 +150,7 @@
                                 A butterfingers curse will cause the subject to drop everything they try to catch, and
                                 struggle to pick up objects.
                             </p>
-                            <a href="check-out.html" class="btn card-button">Add to Cart</a>
+                            <a href="#" class="btn card-button add-to-cart" data-item='{"title": "Tripping Curse", "price": 70}'>Add to Cart</a>
                         </div>
                     </div>
                 </div>
@@ -159,7 +163,7 @@
                                 A forgetfulness curse will not actually cause the subject to forget anything, but to
                                 feel like they have forgotten something constantly.
                             </p>
-                            <a href="check-out.html" class="btn card-button">Add to Cart</a>
+                            <a href="#" class="btn card-button add-to-cart" data-item='{"title": "Tripping Curse", "price": 70}'>Add to Cart</a>
                         </div>
                     </div>
                 </div>
@@ -171,7 +175,7 @@
                             <p class="card-description rounded">
                                 A hair curse will cause the subject to consistantly have uncooperative and unruly hair
                             </p>
-                            <a href="check-out.html" class="btn card-button">Add to Cart</a>
+                            <a href="#" class="btn card-button add-to-cart" data-item='{"title": "Tripping Curse", "price": 70}'>Add to Cart</a>
                         </div>
                     </div>
                 </div>
@@ -187,7 +191,7 @@
                             <p class="card-description rounded">
                                 This curse will cause the subject to step in a puddle once every time they go outside.
                             </p>
-                            <a href="check-out.html" class="btn card-button">Add to Cart</a>
+                            <a href="#" class="btn card-button add-to-cart" data-item='{"title": "Tripping Curse", "price": 70}'>Add to Cart</a>
                         </div>
                     </div>
                 </div>
@@ -199,7 +203,7 @@
                             <p class="card-description rounded">
                                 A Breath curse will cause the subject to have perpetual bad breath
                             </p>
-                            <a href="check-out.html" class="btn card-button">Add to Cart</a>
+                            <a href="#" class="btn card-button add-to-cart" data-item='{"title": "Tripping Curse", "price": 70}'>Add to Cart</a>
                         </div>
                     </div>
                 </div>
@@ -211,7 +215,7 @@
                             <p class="card-description rounded">
                                 This curse will cause their subject to lose every game of chance they play
                             </p>
-                            <a href="check-out.html" class="btn card-button">Add to Cart</a>
+                            <a href="#" class="btn card-button add-to-cart" data-item='{"title": "Tripping Curse", "price": 70}'>Add to Cart</a>
                         </div>
                     </div>
                 </div>
@@ -248,9 +252,103 @@
             </div>
         </div>
     </footer>
+    <div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="cartModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="cartModalLabel">Shopping Cart</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <ul id="cart-items" class="list-group"></ul>
+<p>Total: <span id="cart-total">$0.00</span></p>
+<button id="clear-cart" class="btn btn-warning">Clear Cart</button>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Checkout</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
+    <script>
+        const cart = [];
+        const cartItemsContainer = document.getElementById("cart-items");
+        const cartTotalElement = document.getElementById("cart-total");
+    
+        // Add to Cart Functionality
+        document.querySelectorAll(".add-to-cart").forEach(button => {
+            button.addEventListener("click", function (event) {
+                event.preventDefault();
+                const item = JSON.parse(this.getAttribute("data-item"));
+                addToCart(item);
+            });
+        });
+    
+        // Add Item to Cart
+        function addToCart(item) {
+            const existingItem = cart.find(cartItem => cartItem.title === item.title);
+            if (existingItem) {
+                existingItem.quantity += 1;
+            } else {
+                cart.push({ ...item, quantity: 1 });
+            }
+            updateCart();
+        }
+    
+        // Update Cart View
+        function updateCart() {
+            cartItemsContainer.innerHTML = "";
+            let total = 0;
+    
+            cart.forEach((item, index) => {
+                const itemElement = document.createElement("li");
+                itemElement.className = "list-group-item d-flex justify-content-between align-items-center";
+                itemElement.innerHTML = `
+                    ${item.title} - $${item.price} x ${item.quantity}
+                    <button class="btn btn-sm btn-danger remove-item" data-index="${index}">Remove</button>
+                `;
+                cartItemsContainer.appendChild(itemElement);
+                total += item.price * item.quantity;
+            });
+    
+            cartTotalElement.textContent = `$${total.toFixed(2)}`;
+    
+            // Attach event listeners to the dynamically created remove buttons
+            attachRemoveButtons();
+        }
+    
+        // Attach Remove Button Event Listeners
+        function attachRemoveButtons() {
+            document.querySelectorAll(".remove-item").forEach(button => {
+                button.addEventListener("click", function () {
+                    const itemIndex = parseInt(this.getAttribute("data-index"), 10);
+                    removeFromCart(itemIndex);
+                });
+            });
+        }
+    
+        // Remove Item from Cart
+        function removeFromCart(index) {
+            if (index > -1) {
+                cart.splice(index, 1);
+            }
+            updateCart();
+        }
+    
+        // Clear Cart
+        document.getElementById("clear-cart").addEventListener("click", function () {
+            cart.length = 0;
+            updateCart();
+        });
+    </script>
+    
+    
 </body>
 
 </html>
