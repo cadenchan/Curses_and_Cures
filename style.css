@@ -93,7 +93,9 @@ h4 {
 .hooray{
     height:100vh; background-image: url(/images/hooray!.png); background-repeat: repeat-x; background-color:#F5F5F5
 }
-
+.recommend{
+    color: black; text-decoration: none;
+}
 
 
 
@@ -169,6 +171,38 @@ background-color: #C87E7E;color:;
     color:#3d2722
 }
 
-
-
+/* Cart page */
+.cart-container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #962B2B;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+.cart-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.total-container {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+.btn-clear {
+    background-color: #e04e9e;
+    color: white;
+}
+.btn-clear:hover {
+    color: white;
+}
+.btn-checkout {
+    background-color: #e48499;
+}
+.btn-checkout-link {
+    color: white;text-decoration: none;
+}
 /* About Us Page */
