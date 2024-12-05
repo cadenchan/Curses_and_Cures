@@ -96,7 +96,9 @@ h4 {
 .recommend{
     color: black; text-decoration: none;
 }
-
+#title{
+    font-size: 100px !important;font-family:joan
+}
 
 
 /* homepage*/
@@ -118,7 +120,7 @@ h4 {
     width: 200px; height: 150px; margin: auto;
 }
 .card-button {
-background-color: #C87E7E;color:;
+    background-color: #C87E7E;
 }
 @media only screen and (max-width: 1244px) and (min-width: 992px) {
     .card.home {
@@ -206,3 +208,6 @@ background-color: #C87E7E;color:;
     color: white;text-decoration: none;
 }
 /* About Us Page */
+.prof{
+    width: 1000px !important;
+}
