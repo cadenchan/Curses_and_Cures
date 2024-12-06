@@ -132,7 +132,15 @@ h4 {
 .card-images {
     margin-top: 20px;
 }
-
+#prof{ 
+    width: 80vh;
+} 
+a.product-prof {
+    color: #962B2B;
+}
+a.product-prof:hover {
+    color: white;
+}
 /* Check out page */
 .btn-outline-secondary {
     background-color:#FDB7C6 ;
@@ -207,7 +215,5 @@ h4 {
 .btn-checkout-link {
     color: white;text-decoration: none;
 }
-/* About Us Page */
-.prof{
-    width: 1000px !important;
-}
+
+
